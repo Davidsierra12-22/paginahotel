@@ -9,8 +9,8 @@ body {
   background: #f8f8f8;
   color: #333;
   line-height: 1.5;
-  height: auto;
-  width: 1000px;
+  height: 100%;
+  width: 1000%;
 }
 .contenedor-principal{
   width: 100%;
