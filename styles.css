@@ -24,7 +24,67 @@ body {
   padding: 15px 20px;
   max-width: 100%;
 }
+.texto{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #E0E0E0;
+}
+.texto h2{
+    justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.texto p{
+  max-width: 500px;
+  font-size: 17px;
+    justify-content: center;
+  justify-items: center;
+  align-items: center;
 
+}
+.galery1{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  margin: 25px 0 25px 0;
+}
+.texto2{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #E0E0E0;
+}
+.texto2 h2{
+  font-size: 25px;
+    justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 15px 0 15px 0;
+}
+.hotel1{
+height: 200px;
+width: 400px;
+}
+.hotel2{
+height: 200px;
+width: 400px;
+
+
+}
+.hotel3{
+height: 200px;
+width: 400px;
+
+}
 .logo {
   margin: 0;
   font-size: 50px;
