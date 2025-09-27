@@ -12,10 +12,6 @@ body {
   height: 100%;
   width: 1000%;
 }
-.contenedor-principal{
-  width: 100%;
-}
-
 /* Encabezado y navegación */
 .site-header {
   background-color: #1763a6;
