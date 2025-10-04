@@ -733,3 +733,36 @@ width: 230px;
 
 }
 }
+@media (max-width: 700px) {
+.servicios-grid {
+grid-template-columns: repeat(2, 1fr);
+
+}
+.rooms-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.deportes-grid {
+      grid-template-columns: repeat(2, 1fr);
+}
+.gastronomia-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (max-width: 500px) {
+
+.rooms-grid {
+grid-template-columns: repeat(1, 1fr);
+}
+
+.deportes-grid {
+      grid-template-columns: repeat(1, 1fr);
+}
+.gastronomia-grid {
+grid-template-columns: repeat(1, 1fr);
+}
+.servicios-grid {
+grid-template-columns: repeat(1, 1fr);
+
+}
+}
